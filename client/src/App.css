@@ -1,0 +1,73 @@
+.box {
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.number {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+span {
+  color: #fff;
+}
+
+input[type='number'] {
+  width: 80px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.generate {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.checkboxcont {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input[type='checkbox'] {
+  margin-right: 10px;
+}
+
+.passwordbox {
+  display: flex;
+  align-items: center;
+}
+
+input[type='text'] {
+  flex: 1;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
